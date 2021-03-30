@@ -3,6 +3,9 @@ package model;
 import java.math.BigDecimal;
 
 public class Venda {
+	public Venda() {
+		//Construct
+	}
 	
 	public Venda(Long operacao, Long cliente, Integer quantidadeIngressos, BigDecimal valorTotal) {
 		super();
