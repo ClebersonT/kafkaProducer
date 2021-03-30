@@ -105,10 +105,12 @@ $ kafka-topics.sh --bootstrap-server localhost:9092 --list
 ```
 
 <h5>Crie um produtor</h5>
+
 ```sh
 $ kafka-console-producer.sh --broker-list localhost:9092 --topic teste
 ```
 <h5>Crie um consumidor</h5>
+
 ```sh
 $ kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic teste
 ```
