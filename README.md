@@ -93,7 +93,8 @@ $ kafka-server-start.sh /home/user/kafka/config/server.properties
 ---
 ### :smiley: Teste suas configurações
 
-#####Crie um tópico
+####Crie um tópico
+
 Já com o kafka e zookeeper iniciado execute o comando para a criação
 ```sh
 $ kafka-topics.sh --bootstrap-server localhost:9092 --create --topic teste
@@ -103,11 +104,11 @@ Listando...
 $ kafka-topics.sh --bootstrap-server localhost:9092 --list
 ```
 
-#####Crie um produtor
+####Crie um produtor
 ```sh
 $ kafka-console-producer.sh --broker-list localhost:9092 --topic teste
 ```
-#####Crie um consumidor
+####Crie um consumidor
 ```sh
 $ kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic teste
 ```
