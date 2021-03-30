@@ -119,3 +119,12 @@ $ kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic teste
     <img src="https://ik.imagekit.io/cleber/kafka_4ZR7N_Zxxu.gif">
 </h2>
 
+
+### :link: Links Úteis
+<https://mvnrepository.com/>
+
+<https://kafka.apache.org/documentation/>
+
+<https://kafka.apache.org/10/javadoc/org/apache/kafka/clients/producer/KafkaProducer.html>
+
+<https://kafka.apache.org/10/javadoc/org/apache/kafka/clients/producer/Callback.html>
