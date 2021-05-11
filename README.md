@@ -41,7 +41,7 @@ $ gedit .basrc
 Caso não tenha, adicione ao final do arquivo:
 <pre>
     export PATH=~/.local/bin:$PATH
-    export PATH=/home/user/kafka/bin:$PATH
+    export PATH=/home/seu_usuario/kafka/bin:$PATH
 </pre>
 
 Por padrão o Zookeeper e o kafka armazenam suas informações em pastas predefinidas que estão sendo citadas nos arquivos de configurações, porteriormente editaremos esses arquivos. não é nada obrigatório na instalação, porém visualmente ficaria mais organizado e de fácil manutenção, logo:
@@ -71,7 +71,7 @@ $ gedit zookeeper.properties
 
 localize a variavel dataDir e altere para a pasta que criamos:
 <pre>
-    dataDir=/home/user/kafka/data/zookeeper
+    dataDir=/home/seu_usuario/kafka/data/zookeeper
 </pre>
 
 ```sh
@@ -80,7 +80,7 @@ $ gedit server.properties
 
 localize a variavel logDirs e altere para a pasta que criamos:
 <pre>
-    logDirs=/home/user/kafka/data/kafka
+    logDirs=/home/seu_usuario/kafka/data/kafka
 </pre>
 
 
